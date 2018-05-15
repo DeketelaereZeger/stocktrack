@@ -1,0 +1,19 @@
+#header {
+    margin-bottom: 5vh !important;
+}
+
+.navbar-brand {
+    margin-top: 2vh;
+}
+
+.navbar-collapse a {
+    font-size: 1.25rem !important;
+}
+
+li > a {
+    margin-top:1vh;
+}
+
+
+
+

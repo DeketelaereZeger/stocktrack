@@ -1,0 +1,23 @@
+.page-wrapper {
+    margin-top: 5vh;
+}
+
+h1 {
+    margin-bottom: 5vh !important;
+}
+
+.company>h1{
+    padding-left: 5vh;
+
+}
+
+.company-card {
+    padding: 5vh;
+    height: 100% !important;
+    background-color: #e0e0e0;
+}
+
+.navbar {
+    background-color: #003151 !important;
+}
+
