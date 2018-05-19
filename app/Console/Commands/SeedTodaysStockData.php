@@ -37,7 +37,7 @@ class SeedTodaysStockData extends Command
      */
     public function handle()
     {
-        exec('php artisan db:seed --class=DeleteTableRows');
+        exec('php artisan db:seed --class=DeleteTableRows --force');
 
         /*AEX*/
         exec('php artisan db:seed --class=AalbertsSeeder --force');
