@@ -77,9 +77,9 @@ class SeedTodaysStockData extends Command
         exec('php artisan db:seed --class=CofinimmoSeeder --force');
         exec('php artisan db:seed --class=ColruytSeeder --force');
         exec('php artisan db:seed --class=EngieSeeder --force');
-        exec('php artisan db:seed --class=GalapagosAEXSeeder --force');
+        exec('php artisan db:seed --class=GalapagosSeeder --force');
         exec('php artisan db:seed --class=GblSeeder --force');
-        exec('php artisan db:seed --class=IngAEXSeeder --force');
+        exec('php artisan db:seed --class=IngSeeder --force');
         exec('php artisan db:seed --class=KbcSeeder --force');
         exec('php artisan db:seed --class=OntexSeeder --force');
         exec('php artisan db:seed --class=ProximusSeeder --force');
