@@ -11,7 +11,7 @@ class SeedTodaysStockData extends Command
      *
      * @var string
      */
-    protected $signature = 'SeedTodaysStockData';
+    protected $signature = 'SeedTodaysStockData:seedstockdb';
 
     /**
      * The console command description.
