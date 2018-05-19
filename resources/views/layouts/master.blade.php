@@ -20,7 +20,7 @@
 </head>
 <body>
 @include('layouts.nav')
-<div class="page-wrapper-container" id="page-wrapper">
+<div class=" container page-wrapper-container" id="page-wrapper">
 
     @yield('content')
 </div>
