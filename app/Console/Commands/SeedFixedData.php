@@ -37,8 +37,8 @@ class SeedFixedData extends Command
      */
     public function handle()
     {
-        exec('php artisan db:seed --class=SeedIndicesTable');
-        exec('php artisan db:seed --class=SeedCompaniesTable');
+        exec('php artisan db:seed --class=SeedIndicesTable --force');
+        exec('php artisan db:seed --class=SeedCompaniesTable --force');
 
     }
 }
