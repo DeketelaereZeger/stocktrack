@@ -27,7 +27,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
 
-        $schedule->command(yes | 'SeedTodaysStockData')
+        $schedule->command('SeedTodaysStockData:handle --force')
             ->dailyAt('20:00');
 
     }
