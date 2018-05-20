@@ -2,9 +2,8 @@
   "short_name": "StockTrack",
   "name": "StockTrack",
   "theme_color": "#205279",
-  "background_color": "#f4f4f4",
+  "background_color": "#ffffff",
   "orientation": "portrait",
-  /*"display": "browser",*/
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
