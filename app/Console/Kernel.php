@@ -28,7 +28,7 @@ class Kernel extends ConsoleKernel
         //          ->hourly();
 
         $schedule->command('seedstockdb')
-            ->dailyAt('20:00');
+            ->dailyAt('19:00');
 
     }
 
