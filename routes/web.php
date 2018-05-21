@@ -15,7 +15,8 @@ Route::get('/', function () {
     return view('index.index');
 });
 
-//ResponseCache::clear();
+ResponseCache::clear();
+Route::get('/', 'IndexController@index');           //url gives overview of all the indices AND will be cached
 
 Route::get('/indices', 'IndiceController@index');           //url gives overview of all the indices AND will be cached
 Route::get('/indices/{ticker}',['middleware' => 'doNotCacheResponse', 'uses' => 'IndiceController@show']);   //overview of all companies within an indice
