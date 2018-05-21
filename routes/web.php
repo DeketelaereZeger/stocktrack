@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index.index');
 });
 
-ResponseCache::clear();
+//ResponseCache::clear();
 Route::get('/', 'IndexController@index');           //url gives overview of all the indices AND will be cached
 
 Route::get('/indices', 'IndiceController@index');           //url gives overview of all the indices AND will be cached
