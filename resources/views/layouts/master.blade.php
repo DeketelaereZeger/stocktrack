@@ -29,11 +29,14 @@
 <!-- Scripts -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
 <!--<script src="{{ asset('js/localforage.js') }}"></script>-->
+<!--<script src="https://cdn.rawgit.com/mozilla/localForage/master/dist/localforage.js"></script>-->
 <!--<script src="{{ asset('js/pouchdb-6.4.3.min.js') }}"></script>-->
+<!--<script src="//cdn.jsdelivr.net/npm/pouchdb@6.4.3/dist/pouchdb.min.js"></script>-->
 
 <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/util.js') }}"></script>
+<script src="{{ asset('js/push_messages.js') }}"></script>
 
 </body>
 </html>
