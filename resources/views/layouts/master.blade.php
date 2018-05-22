@@ -35,41 +35,6 @@
 
 <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/util.js') }}" async></script>
-<script>
-    if ('serviceWorker' in navigator ) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-            }, function(err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
-            });
-        });
-    }
-</script>
-
-
-<!--
-<script src="{{ asset('resources/es6-promise/es6-promise.js') }}" async></script>
-<script src="{{ asset('resources/fetch/fetch.js') }}" async></script>
-<script src="{{ asset('resources/localforage/localforage.min.js') }}" async></script>
-<script src="{{ asset('resources/localforage/localforage-getitems.js') }}" async></script>
-<script src="{{ asset('resources/localforage/localforage-setitems.js') }}" async></script>
-<script src="{{ asset('resources/systemjs/system.js') }}" async></script>
- -->
-<!--
-<script src="resources/es6-promise/es6-promise.js"></script>
-<script src="resources/fetch/fetch.js"></script>
-<script src="resources/localforage/localforage.min.js"></script>
-<script src="resources/localforage/localforage-getitems.js"></script>
-<script src="resources/localforage/localforage-setitems.js"></script>
-<script src="resources/systemjs/system.js"></script>
-
-<script>
-    System.import('./js/app_sw.js');
-</script>
--->
+<script src="{{ asset('js/util.js') }}" ></script>
 </body>
 </html>

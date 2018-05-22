@@ -25,7 +25,6 @@ mix.webpackConfig({
                 //and have full support for offline first (example below)
 
                 '/': ['resources/views/index/index.blade.php'],
-                '/search': ['resources/views/layouts/search.blade.php'],
                 '/indices': ['resources/views/indices/indice.blade.php'],
                 '/stocks': ['resources/views/companies/company.blade.php'],
                 '/indices/AEX': ['resources/views/indices/indice.blade.php'],
@@ -79,6 +78,7 @@ mix.webpackConfig({
             },
             staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/],
             navigateFallback: '/',
+            skipWaiting: true,
             runtimeCaching: [
                 {
                     urlPattern: /^https:\/\/fonts\.googleapis\.com\//,
