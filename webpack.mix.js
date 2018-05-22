@@ -26,9 +26,9 @@ mix.webpackConfig({
                 '/': ['resources/views/index/index.blade.php'],
                 '/indices': ['resources/views/indices/indice.blade.php'],
                 '/stocks': ['resources/views/companies/company.blade.php'],
-                '/indices/AEX': ['resources/views/indices/indice.blade.php'],
+                /*'/indices/AEX': ['resources/views/indices/indice.blade.php'],*/
                 '/indices/BEL20': ['resources/views/indices/indice.blade.php'],
-                '/stocks/{ticker}': ['resources/views/companies/companiesoverview.blade.php'],
+                /*'/stocks/{ticker}': ['resources/views/companies/companiesoverview.blade.php'],*/
 
             },
             staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/],
@@ -43,7 +43,7 @@ mix.webpackConfig({
                     handler: 'cacheFirst'
                 }
             ],
-            // importScripts: ['./js/push_message.js']
+// importScripts: ['./js/push_message.js']
         })
     ]
 });
