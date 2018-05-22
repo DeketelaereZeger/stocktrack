@@ -1,10 +1,11 @@
+
 define([], function(){
 
     if('serviceWorker' in navigator){
         navigator.serviceWorker
-        .register('sw.js', {scope:''})
+        .register('./sw.js', {scope:'./'})
         .then(function(swRegistration){
-            
+            console.log("service worker registered", swRegistration);
             var serviceWorker;
 
             if(swRegistration.installing){
