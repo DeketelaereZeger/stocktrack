@@ -35,8 +35,8 @@
 
 <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/util.js') }}"></script>
-<script src="{{ asset('js/push_messages.js') }}"></script>
+<script src="{{ asset('js/util.js') }}" async></script>
+<script src="{{ asset('js/push_messages.js') }} async"></script>
 
 </body>
 </html>
