@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
             <p>On StockTrack you can find the latest quotes of companies in the BEL20 and AEX indice from Euronext.</p>
-            <p>Note that the latest quotes will be available around 19:00 CET concerning the last trading day.</p>
+            <p>Note that the latest quotes will be available around 20:00 CET concerning the last trading day.</p>
         </div>
     </div>
     <div class="row">
