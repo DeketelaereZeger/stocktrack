@@ -28,7 +28,7 @@ mix.webpackConfig({
                 '/indices': ['resources/views/indices/indice.blade.php'],
                 '/stocks': ['resources/views/companies/company.blade.php'],
                 '/indices/AEX': ['resources/views/indices/indice.blade.php'],
-                '/indices/BEL20': ['resources/views/indices/indice.blade.php'],
+                '/indices/Bel20': ['resources/views/indices/indice.blade.php'],
                 '/stocks/AALB': ['resources/views/companies/companiesoverview.blade.php'],
                 '/stocks/ABN': ['resources/views/companies/companiesoverview.blade.php'],
                 '/stocks/AGN': ['resources/views/companies/companiesoverview.blade.php'],
